@@ -100,7 +100,7 @@ You can [view the source for the installer script](./deployments/installer/insta
 and use it on your hosts by running:
 
 ```sh
-curl -sSL https://dl.signalfx.com/signalfx-agent.sh > /tmp/signalfx-agent.sh
+curl -sSL https://dl.signalfx.com/signalfx-agent.sh > /tmp/signalfx-agent.sh;
 sudo sh /tmp/signalfx-agent.sh --realm YOUR_SIGNALFX_REALM -- YOUR_SIGNALFX_API_TOKEN
 ```
 
